@@ -222,9 +222,6 @@ for tum in tumblr_post_lst:
     except:
         pass
 
-for tum in tumblr_posts_inst:
-    print(tum.post_url)
-
 with open('tumblr.csv', 'w') as csvfile:
     fieldnames = ['title', 'description', 'num_posts', 'url']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
