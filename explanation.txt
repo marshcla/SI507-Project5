@@ -1,1 +1,29 @@
 Put your Project 5 brief explanation, as directed, here.
+
+I am accessing the Tumblr API. I wish to obtain the following info from five blogs:
+  - Title
+  - Description
+  - Number of posts
+  - URL
+  - Posts
+  - Post type
+  - Post url
+
+I will write one CSV file containing the following columns:
+  - title (blog title)
+  - description (blog description)
+  - num_posts (number of posts user has made on blog)
+  - url (blog url)
+
+  To get this information I will use Tumblr's /info method.
+
+I will write another CSV file the following columns:
+  - blog (blog title)
+  - post_type (for the blog's last 20 posts)
+  - summary (for the blog's last 20 posts)
+  - post_url (for the blog's last 20 posts)
+
+  To get this information I will use Tumblr's /posts method.
+
+API URL: https://www.tumblr.com/docs/en/api/v2#auth
+If necessary, URL describing the authentication process for the API: https://www.tumblr.com/oauth/apps
