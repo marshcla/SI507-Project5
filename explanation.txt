@@ -25,5 +25,7 @@ I will write another CSV file containing the following columns:
 
   To get this information I will use Tumblr's /posts method.
 
+  In tumsecret.py, paste in your appropriate Tumblr credentials.
+
 API URL: https://www.tumblr.com/docs/en/api/v2#auth
 If necessary, URL describing the authentication process for the API: https://www.tumblr.com/oauth/apps
