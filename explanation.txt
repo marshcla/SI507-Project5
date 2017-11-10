@@ -17,7 +17,7 @@ I will write one CSV file containing the following columns:
 
   To get this information I will use Tumblr's /info method.
 
-I will write another CSV file the following columns:
+I will write another CSV file containing the following columns:
   - blog (blog title)
   - post_type (for the blog's last 20 posts)
   - summary (for the blog's last 20 posts)
