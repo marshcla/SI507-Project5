@@ -30,7 +30,7 @@ class Project5(unittest.TestCase):
         self.assertEqual(len(self.tumblr_test.keys()), 2, "Testing that the dictionary is not empty.")
 
     def test_class_tumblr(self):
-        self.assertTrue(self.tumblr_instance.title == "", "Testing that my personal Tumblr has no title.")
+        self.assertTrue(self.tumblr_instance.title == "", "Testing that Class Tumblr correctly returns data.")
 
     def test_class_tum_posts(self):
         for tum in range(len(self.tumblr_post["response"]["posts"])):
